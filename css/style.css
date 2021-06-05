@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Apex Regular";
+  src: url("../assets/font/ApexRegular.otf"); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #1F1F1F; }
+
+.chapitre {
+  display: flex; }
+  .chapitre .chapitres {
+    width: 640px;
+    height: 100vh;
+    filter: brightness(50%);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .chapitre .chapitres .ligne {
+      position: absolute;
+      top: 20%;
+      left: 5%; }
+    .chapitre .chapitres h2 {
+      color: white;
+      font-family: "Apex Regular";
+      font-size: 30px; }
+    .chapitre .chapitres h3 {
+      color: white;
+      font-family: "Apex Regular";
+      font-size: 50px; }
+  .chapitre div:hover {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%); }
+  .chapitre .chapitre1 {
+    background-image: url("../assets/images/Viille.jpg"); }
+    .chapitre .chapitre1 h3 {
+      width: 90%;
+      padding-left: 8%; }
+  .chapitre .chapitre2 {
+    background-image: url("../assets/images/eolienne2.jpg"); }
+  .chapitre .chapitre3 {
+    background-image: url("../assets/images/robot.jpg"); }
+  .chapitre .chapitre3 button {
+    position: absolute; }
+
+body {
+  background: #1F1F1F; }
+
+/*# sourceMappingURL=style.css.map */

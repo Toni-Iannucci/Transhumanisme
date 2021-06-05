@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: $fond;
+}
+
+.chapitre {
+	display: flex;
+
+	.chapitres {
+		width: 640px;
+		height: 100vh;
+		filter: brightness(50%);
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.ligne {
+			position: absolute;
+			top: 20%;
+			left: 5%;
+
+		}
+
+		h2 {
+			color: white;
+			font-family: "Apex Regular";
+			font-size: 30px;
+
+		}
+
+		h3 {
+			color: white;
+			font-family: "Apex Regular";
+			font-size: 50px;
+		}
+
+
+	}
+
+	div:hover {
+		filter: brightness(100%);
+		-webkit-filter: brightness(100%);
+	}
+
+
+	.chapitre1 {
+		background-image: url("../assets/images/Viille.jpg");
+
+		h3 {
+			width: 90%;
+			padding-left: 8%;
+		}
+	}
+
+	.chapitre2 {
+
+		background-image: url("../assets/images/eolienne2.jpg");
+	}
+
+	.chapitre3 {
+		background-image: url("../assets/images/robot.jpg")
+	}
+
+	.chapitre3 button {
+		position: absolute;
+	}
+}
+
+
+
+
+body {
+	background: $fond;
+}
