@@ -703,28 +703,31 @@ h4 {
   opacity: 0.7;
   left: 66%; }
 
-.modale {
-  position: absolute;
+.modale-bg {
+  position: fixed;
+  width: 100%;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
+  height: 100vh;
   background: #0E0E0F;
-  display: none; }
-  .modale .Sousmodale {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s opacity 0, 5s; }
+  .modale-bg .Sousmodale {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 2%;
-    background-color: #0E0E0F; }
-    .modale .Sousmodale h2 {
+    margin-top: 2%; }
+    .modale-bg .Sousmodale h2 {
       color: white;
       font-family: "Apex Regular";
       font-size: 30px;
       padding-top: 3%;
       padding-bottom: 3%; }
-    .modale .Sousmodale p {
+    .modale-bg .Sousmodale p {
       padding-bottom: 5%;
       font-family: 'Montserrat', sans-serif;
       color: white;
@@ -772,10 +775,8 @@ h4 {
   -ms-transition: 1s;
   -o-transition: 1s; }
 
-.close {
-  display: none; }
-
-.open {
-  display: flex; }
+.bg-active {
+  visibility: visible;
+  opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */

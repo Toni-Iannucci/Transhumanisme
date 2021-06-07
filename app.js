@@ -1,15 +1,15 @@
 let boutonModale = document.getElementById('Suivant');
-let BoxModale = document.getElementsByClassName('modale');
-let boutonSuivant = document.getElementsByClassName('BoutonModale');
-let footerAccueil = document.getElementsByClassName('footerAccueil');
-let footerChapitreUn = document.getElementsByClassName('footerAccueil');
-let footerChapitreDeux = document.getElementsByClassName('footerAccueil');
-let footerChapitreTrois = document.getElementsByClassName('footerAccueil');
+let boutonModalePrologue = document.querySelector('.prologue');
+let modalBg = document.querySelector('.modale-bg');
+
+boutonModale.addEventListener('click',function(){
+	modalBg.classList.remove('bg-active')
+})
+boutonModalePrologue.addEventListener('click',function(){
+	modalBg.classList.add('bg-active')
+})
 
 
-function toggleClass(){
-	BoxModale.style.display = "flex";
-};
 function changeText()
 {
   boutonModale.textContent = "Lire 2021";

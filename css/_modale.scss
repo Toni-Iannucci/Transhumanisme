@@ -1,14 +1,15 @@
-.modale {
-	position: absolute;
+.modale-bg {
+	position: fixed;
+	width: 100%;
 	top: 0;
 	right: 0;
 	left: 0;
 	bottom: 0;
-
+	height: 100vh;
 	background: #0E0E0F;
-
-	display: none;
-
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s opacity 0, 5s;
 
 	.Sousmodale {
 
@@ -17,7 +18,7 @@
 		align-items: center;
 		flex-direction: column;
 		margin-top: 2%;
-		background-color: #0E0E0F;
+
 
 		h2 {
 			color: white;
@@ -43,7 +44,10 @@
 	cursor: pointer;
 }
 
+
+
 .BoutonModale:hover {
+
 	#Groupe_2 {
 		opacity: 1;
 		transition: 1s;
@@ -90,10 +94,7 @@
 	}
 }
 
-.close {
-	display: none;
-}
-
-.open {
-	display: flex
+.bg-active {
+	visibility: visible;
+	opacity: 1;
 }
