@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
 
 
@@ -25,24 +26,32 @@ body {
 		justify-content: center;
 		align-items: center;
 
-		.ligne {
-			position: absolute;
-			top: 20%;
-			left: 5%;
 
-		}
 
 		h2 {
 			color: white;
 			font-family: "Apex Regular";
 			font-size: 30px;
-
+			position: relative;
 		}
 
-		h3 {
+		h2::after {
+			content: '';
+			width: 400px;
+			border-bottom: solid 3px #fff;
+			position: absolute;
+			left: 120%;
+			top: 45%;
+			z-index: 1;
+		}
+
+
+		a {
 			color: white;
 			font-family: "Apex Regular";
 			font-size: 50px;
+			text-decoration: none;
+			-webkit-filter: brightness(100%);
 		}
 
 
@@ -57,7 +66,7 @@ body {
 	.chapitre1 {
 		background-image: url("../assets/images/Viille.jpg");
 
-		h3 {
+		a {
 			width: 90%;
 			padding-left: 8%;
 		}
@@ -77,9 +86,40 @@ body {
 	}
 }
 
+.Titrage {
+	display: flex;
+	margin-left: 7%;
 
+	h2 {
+		padding-top: 11px;
+		color: white;
+		font-family: "Apex Regular";
+		font-size: 100px;
+	}
 
+	h3 {
+		padding-top: 3%;
+		padding-left: 10%;
+		color: white;
+		font-family: "Apex Regular";
+		font-size: 50px;
+	}
 
-body {
-	background: $fond;
+}
+
+.imageBackground {
+	display: flex;
+	position: relative;
+
+	p {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		font-weight: bold;
+		font-size: 23px;
+		width: 80%;
+		line-height: 2.3;
+		text-align: left;
+		padding-left: 20%;
+		padding-top: 15%;
+	}
 }

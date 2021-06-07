@@ -1,6 +1,54 @@
 @font-face {
   font-family: "Apex Regular";
   src: url("../assets/font/ApexRegular.otf"); }
+header {
+  width: 100%;
+  height: 124px; }
+  header ul {
+    display: flex;
+    padding-left: 140px;
+    padding-top: 42px; }
+    header ul li {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 16px; }
+      header ul li a {
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        font-family: "Apex Regular";
+        font-size: 30px; }
+
+.headerChapitre1 {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("../assets/images/ville-3.jpg");
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%); }
+
+.headerChapitre2 {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("../assets/images/EolienneBig.jpg");
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%); }
+
+.ligne3 {
+  margin-top: 0.8%;
+  margin-left: 30px; }
+
+.ligne {
+  position: absolute;
+  top: 20%;
+  left: 5%; }
+
+.icone {
+  position: absolute;
+  left: 44%;
+  top: 68%; }
+
 * {
   margin: 0;
   padding: 0;
@@ -23,24 +71,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
-    .chapitre .chapitres .ligne {
-      position: absolute;
-      top: 20%;
-      left: 5%; }
     .chapitre .chapitres h2 {
       color: white;
       font-family: "Apex Regular";
-      font-size: 30px; }
-    .chapitre .chapitres h3 {
+      font-size: 30px;
+      position: relative; }
+    .chapitre .chapitres h2::after {
+      content: '';
+      width: 400px;
+      border-bottom: solid 3px #fff;
+      position: absolute;
+      left: 120%;
+      top: 45%;
+      z-index: 1; }
+    .chapitre .chapitres a {
       color: white;
       font-family: "Apex Regular";
-      font-size: 50px; }
+      font-size: 50px;
+      text-decoration: none;
+      -webkit-filter: brightness(100%); }
   .chapitre div:hover {
     filter: brightness(100%);
     -webkit-filter: brightness(100%); }
   .chapitre .chapitre1 {
     background-image: url("../assets/images/Viille.jpg"); }
-    .chapitre .chapitre1 h3 {
+    .chapitre .chapitre1 a {
       width: 90%;
       padding-left: 8%; }
   .chapitre .chapitre2 {
@@ -50,7 +105,135 @@ body {
   .chapitre .chapitre3 button {
     position: absolute; }
 
-body {
-  background: #1F1F1F; }
+.Titrage {
+  display: flex;
+  margin-left: 7%; }
+  .Titrage h2 {
+    padding-top: 11px;
+    color: white;
+    font-family: "Apex Regular";
+    font-size: 100px; }
+  .Titrage h3 {
+    padding-top: 3%;
+    padding-left: 10%;
+    color: white;
+    font-family: "Apex Regular";
+    font-size: 50px; }
+
+.imageBackground {
+  display: flex;
+  position: relative; }
+  .imageBackground p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    width: 80%;
+    line-height: 2.3;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 15%; }
+
+.Texte1,
+.Texte2,
+.Texte3 {
+  margin-top: 4%;
+  margin-left: 7%; }
+
+.Texte1 p, .Texte3 p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  width: 63%;
+  line-height: 2.5;
+  text-align: left;
+  padding-top: 3%; }
+
+.Texte2 p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  width: 30%;
+  line-height: 2.5;
+  text-align: left;
+  padding-top: 3%;
+  padding-right: 2%; }
+
+.Texte2 .box {
+  display: flex; }
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+footer li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px; }
+
+footer a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-family: "Apex Regular";
+  font-size: 30px; }
+
+.prologue {
+  position: absolute;
+  top: 3%;
+  left: 60%; }
+
+.premierChapitre {
+  position: relative; }
+
+h4 {
+  color: #B7B6BE;
+  font-family: "Apex Regular";
+  font-size: 30px;
+  position: relative; }
+
+.ChapitreLigne {
+  display: flex;
+  position: relative;
+  padding-top: 157px;
+  margin-left: 7%; }
+
+.image {
+  margin-left: 7%;
+  margin-top: 3%;
+  position: relative; }
+  .image .petiteville {
+    left: 1%;
+    top: 3%;
+    position: absolute; }
+  .image .eoliennepetite {
+    left: 2%;
+    top: 5%;
+    position: absolute; }
+
+.imageEgout {
+  position: relative; }
+  .imageEgout .Egout {
+    position: absolute;
+    left: 2%;
+    top: 4%; }
+
+.polygone {
+  position: absolute;
+  top: 15%;
+  z-index: 1;
+  opacity: 0.7;
+  left: 66%; }
+
+.polygone2 {
+  position: absolute;
+  top: 23%;
+  z-index: 1;
+  opacity: 0.7;
+  left: 66%; }
 
 /*# sourceMappingURL=style.css.map */

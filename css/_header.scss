@@ -1,0 +1,46 @@
+header {
+	width: 100%;
+	height: 124px;
+
+	ul {
+
+		display: flex;
+		padding-left: 140px;
+		padding-top: 42px;
+
+
+		li {
+			list-style: none;
+
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 16px;
+
+			a {
+				position: absolute;
+				text-decoration: none;
+				color: white;
+				font-family: "Apex Regular";
+				font-size: 30px;
+			}
+		}
+	}
+}
+
+.headerChapitre1 {
+	width: 1920px;
+	height: 1080px;
+	background-image: url("../assets/images/ville-3.jpg");
+	filter: brightness(70%);
+	-webkit-filter: brightness(70%);
+}
+
+.headerChapitre2 {
+	width: 1920px;
+	height: 1080px;
+	background-image: url("../assets/images/EolienneBig.jpg");
+	filter: brightness(70%);
+	-webkit-filter: brightness(70%);
+}

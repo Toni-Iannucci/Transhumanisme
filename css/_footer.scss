@@ -1,0 +1,27 @@
+footer ul {
+
+	display: flex;
+	justify-content:center;
+	padding-top: 5%;
+padding-bottom: 5%;
+
+}
+
+footer li {
+	list-style: none;
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 16px;
+
+}
+
+footer a {
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	font-family: "Apex Regular";
+	font-size: 30px;
+}

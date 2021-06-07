@@ -1,0 +1,33 @@
+.Texte1,
+.Texte2,
+.Texte3 {
+	margin-top: 4%;
+	margin-left: 7%;
+
+}
+.Texte1,.Texte3{
+	p {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		font-size: 20px;
+		width: 63%;
+		line-height: 2.5;
+		text-align: left;
+		padding-top: 3%;
+	}
+}
+.Texte2{
+	p {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		font-size: 20px;
+		width: 30%;
+		line-height: 2.5;
+		text-align: left;
+		padding-top: 3%;
+		padding-right: 2%;
+	}
+}
+.Texte2 .box {
+	display:flex
+}
