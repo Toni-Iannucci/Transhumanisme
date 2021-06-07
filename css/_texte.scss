@@ -7,6 +7,15 @@
 
 }
 
+.Texte1Inegalites,
+.Inegalites {
+	margin-top: 10%;
+	margin-left: 7%;
+
+}
+
+
+
 .Texte4 {
 	margin-top: 10%;
 	margin-left: 7%;
@@ -22,8 +31,43 @@
 	}
 }
 
+.Inegalites {
+	display: flex;
+}
+
+.InegalitesDroite {
+
+	margin-left: 7%;
+
+	p {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		font-size: 20px;
+		width: 90%;
+		line-height: 2.5;
+		text-align: left;
+		padding-top: 3%;
+	}
+
+	.Groupe14 {
+		margin-top: 15%;
+	}
+}
+
 .Texte1,
 .Texte3 {
+	p {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		font-size: 20px;
+		width: 63%;
+		line-height: 2.5;
+		text-align: left;
+		padding-top: 3%;
+	}
+}
+
+.Texte1Inegalites {
 	p {
 		font-family: 'Montserrat', sans-serif;
 		color: white;

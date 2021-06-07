@@ -1,0 +1,99 @@
+.modale {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+	background: #0E0E0F;
+
+	display: none;
+
+
+	.Sousmodale {
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 2%;
+		background-color: #0E0E0F;
+
+		h2 {
+			color: white;
+			font-family: "Apex Regular";
+			font-size: 30px;
+			padding-top: 3%;
+			padding-bottom: 3%;
+		}
+
+		p {
+			padding-bottom: 5%;
+			font-family: 'Montserrat', sans-serif;
+			color: white;
+			font-size: 20px;
+			line-height: 2.5;
+			width: 60%;
+			text-align: left;
+		}
+	}
+}
+
+.BoutonModale {
+	cursor: pointer;
+}
+
+.BoutonModale:hover {
+	#Groupe_2 {
+		opacity: 1;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Groupe_5 {
+		opacity: 1;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Groupe_3 {
+		opacity: 1;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Groupe_4 {
+		opacity: 1;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Suivant {
+		opacity: 1;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+}
+
+.close {
+	display: none;
+}
+
+.open {
+	display: flex
+}

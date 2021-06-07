@@ -61,6 +61,77 @@ header {
   left: 44%;
   top: 68%; }
 
+.prologue {
+  position: absolute;
+  top: 3%;
+  left: 60%;
+  cursor: pointer; }
+
+.prologue:hover #Prologue {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.prologue:hover #Groupe_2 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.prologue:hover #Groupe_5 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.prologue:hover #Groupe_3 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.prologue:hover #Groupe_4 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+
+ul li a:hover .boutonchapitre2 #Groupe_2 {
+  stroke: #efedf7;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+ul li a:hover .boutonchapitre2 #Groupe_5 {
+  stroke: #efedf7;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+ul li a:hover .boutonchapitre2 #Groupe_3 {
+  stroke: #efedf7;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+ul li a:hover .boutonchapitre2 #Groupe_4 {
+  stroke: #efedf7;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+
 * {
   margin: 0;
   padding: 0;
@@ -144,6 +215,11 @@ body {
   margin-top: 4%;
   margin-left: 7%; }
 
+.Texte1Inegalites,
+.Inegalites {
+  margin-top: 10%;
+  margin-left: 7%; }
+
 .Texte4 {
   margin-top: 10%;
   margin-left: 7%; }
@@ -156,8 +232,33 @@ body {
     text-align: left;
     padding-top: 3%; }
 
+.Inegalites {
+  display: flex; }
+
+.InegalitesDroite {
+  margin-left: 7%; }
+  .InegalitesDroite p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    line-height: 2.5;
+    text-align: left;
+    padding-top: 3%; }
+  .InegalitesDroite .Groupe14 {
+    margin-top: 15%; }
+
 .Texte1 p,
 .Texte3 p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  width: 63%;
+  line-height: 2.5;
+  text-align: left;
+  padding-top: 3%; }
+
+.Texte1Inegalites p {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 20px;
@@ -214,11 +315,6 @@ footer a {
   color: white;
   font-family: "Apex Regular";
   font-size: 30px; }
-
-.prologue {
-  position: absolute;
-  top: 3%;
-  left: 60%; }
 
 .premierChapitre {
   position: relative; }
@@ -286,5 +382,80 @@ h4 {
   z-index: 1;
   opacity: 0.7;
   left: 66%; }
+
+.modale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #0E0E0F;
+  display: none; }
+  .modale .Sousmodale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+    background-color: #0E0E0F; }
+    .modale .Sousmodale h2 {
+      color: white;
+      font-family: "Apex Regular";
+      font-size: 30px;
+      padding-top: 3%;
+      padding-bottom: 3%; }
+    .modale .Sousmodale p {
+      padding-bottom: 5%;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size: 20px;
+      line-height: 2.5;
+      width: 60%;
+      text-align: left; }
+
+.BoutonModale {
+  cursor: pointer; }
+
+.BoutonModale:hover #Groupe_2 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.BoutonModale:hover #Groupe_5 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.BoutonModale:hover #Groupe_3 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.BoutonModale:hover #Groupe_4 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.BoutonModale:hover #Suivant {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+
+.close {
+  display: none; }
+
+.open {
+  display: flex; }
 
 /*# sourceMappingURL=style.css.map */
