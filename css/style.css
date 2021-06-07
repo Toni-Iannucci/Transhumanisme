@@ -169,6 +169,70 @@ header {
   -ms-transition: 1s;
   -o-transition: 1s; }
 
+.ChapitreTroisHeader:hover #Ligne_2 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreTroisHeader:hover #Ligne_3 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreTroisHeader:hover #Ligne_2-2 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreTroisHeader:hover #Ligne_3-2 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreTroisHeader:hover #Ligne_2-3 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreTroisHeader:hover #Ligne_3-3 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreTroisHeader:hover #Ligne_2-4 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreTroisHeader:hover #Ligne_3-4 {
+  stroke: #fff;
+  transition: 1;
+  -webkit-transition: 1;
+  -moz-transition: 1;
+  -ms-transition: 1;
+  -o-transition: 1; }
+.ChapitreTroisHeader:hover #ChapitreTrois {
+  fill: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+
 .ligne3 {
   margin-top: 0.8%;
   margin-left: 30px; }
@@ -224,35 +288,6 @@ header {
   -o-transition: 1s; }
 .prologue:hover #Groupe_4 {
   opacity: 1;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s; }
-
-ul li a:hover .boutonchapitre2 #Groupe_2 {
-  stroke: #efedf7;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s; }
-ul li a:hover .boutonchapitre2 #Groupe_5 {
-  stroke: #efedf7;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s; }
-ul li a:hover .boutonchapitre2 #Groupe_3 {
-  stroke: #efedf7;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s; }
-ul li a:hover .boutonchapitre2 #Groupe_4 {
-  stroke: #efedf7;
   transition: 1s;
   -webkit-transition: 1s;
   -moz-transition: 1s;
