@@ -1,11 +1,16 @@
 .Texte1,
 .Texte2,
-.Texte3 {
+.Texte3,
+.doublebox {
 	margin-top: 4%;
 	margin-left: 7%;
 
 }
-.Texte1,.Texte3{
+
+.Texte4 {
+	margin-top: 10%;
+	margin-left: 7%;
+
 	p {
 		font-family: 'Montserrat', sans-serif;
 		color: white;
@@ -16,7 +21,42 @@
 		padding-top: 3%;
 	}
 }
-.Texte2{
+
+.Texte1,
+.Texte3 {
+	p {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		font-size: 20px;
+		width: 63%;
+		line-height: 2.5;
+		text-align: left;
+		padding-top: 3%;
+	}
+}
+
+.doublebox {
+	display: flex;
+}
+
+.ArmeeTexte {
+	width: 100%;
+	padding-left: 4%;
+
+	p {
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		font-size: 20px;
+		width: 90%;
+		line-height: 2.5;
+		text-align: left;
+		padding-top: 3%;
+		padding-right: 2%;
+	}
+}
+
+
+.Texte2 {
 	p {
 		font-family: 'Montserrat', sans-serif;
 		color: white;
@@ -28,6 +68,8 @@
 		padding-right: 2%;
 	}
 }
+
+
 .Texte2 .box {
-	display:flex
+	display: flex
 }

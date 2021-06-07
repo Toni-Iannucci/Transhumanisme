@@ -40,6 +40,12 @@ h4 {
 		top: 5%;
 		position: absolute;
 	}
+
+	.robot {
+		left: 2%;
+		top: 5%;
+		position: absolute;
+	}
 }
 
 .imageEgout {
@@ -49,6 +55,16 @@ h4 {
 		position: absolute;
 		left: 2%;
 		top: 4%;
+	}
+}
+
+.imagearmee {
+	position: relative;
+
+	.armee {
+		position: absolute;
+		left: 2%;
+		top: 2%;
 	}
 }
 
@@ -63,6 +79,14 @@ h4 {
 .polygone2 {
 	position: absolute;
 	top: 23%;
+	z-index: 1;
+	opacity: 0.7;
+	left: 66%;
+}
+
+.polygone3 {
+	position: absolute;
+	top: 14.5%;
 	z-index: 1;
 	opacity: 0.7;
 	left: 66%;

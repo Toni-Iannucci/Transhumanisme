@@ -35,6 +35,13 @@ header {
   filter: brightness(70%);
   -webkit-filter: brightness(70%); }
 
+.headerChapitre3 {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("../assets/images/Ai_chaise.jpg");
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%); }
+
 .ligne3 {
   margin-top: 0.8%;
   margin-left: 30px; }
@@ -42,7 +49,12 @@ header {
 .ligne {
   position: absolute;
   top: 20%;
-  left: 5%; }
+  left: 5%;
+  display: flex; }
+
+.iconeligne {
+  padding-left: 5%;
+  margin-top: 3%; }
 
 .icone {
   position: absolute;
@@ -74,16 +86,7 @@ body {
     .chapitre .chapitres h2 {
       color: white;
       font-family: "Apex Regular";
-      font-size: 30px;
-      position: relative; }
-    .chapitre .chapitres h2::after {
-      content: '';
-      width: 400px;
-      border-bottom: solid 3px #fff;
-      position: absolute;
-      left: 120%;
-      top: 45%;
-      z-index: 1; }
+      font-size: 30px; }
     .chapitre .chapitres a {
       color: white;
       font-family: "Apex Regular";
@@ -101,7 +104,7 @@ body {
   .chapitre .chapitre2 {
     background-image: url("../assets/images/eolienne2.jpg"); }
   .chapitre .chapitre3 {
-    background-image: url("../assets/images/robot.jpg"); }
+    background-image: url("../assets/images/robotindex.jpg"); }
   .chapitre .chapitre3 button {
     position: absolute; }
 
@@ -136,11 +139,25 @@ body {
 
 .Texte1,
 .Texte2,
-.Texte3 {
+.Texte3,
+.doublebox {
   margin-top: 4%;
   margin-left: 7%; }
 
-.Texte1 p, .Texte3 p {
+.Texte4 {
+  margin-top: 10%;
+  margin-left: 7%; }
+  .Texte4 p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 63%;
+    line-height: 2.5;
+    text-align: left;
+    padding-top: 3%; }
+
+.Texte1 p,
+.Texte3 p {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 20px;
@@ -148,6 +165,22 @@ body {
   line-height: 2.5;
   text-align: left;
   padding-top: 3%; }
+
+.doublebox {
+  display: flex; }
+
+.ArmeeTexte {
+  width: 100%;
+  padding-left: 4%; }
+  .ArmeeTexte p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    line-height: 2.5;
+    text-align: left;
+    padding-top: 3%;
+    padding-right: 2%; }
 
 .Texte2 p {
   font-family: 'Montserrat', sans-serif;
@@ -214,6 +247,10 @@ h4 {
     left: 2%;
     top: 5%;
     position: absolute; }
+  .image .robot {
+    left: 2%;
+    top: 5%;
+    position: absolute; }
 
 .imageEgout {
   position: relative; }
@@ -221,6 +258,13 @@ h4 {
     position: absolute;
     left: 2%;
     top: 4%; }
+
+.imagearmee {
+  position: relative; }
+  .imagearmee .armee {
+    position: absolute;
+    left: 2%;
+    top: 2%; }
 
 .polygone {
   position: absolute;
@@ -232,6 +276,13 @@ h4 {
 .polygone2 {
   position: absolute;
   top: 23%;
+  z-index: 1;
+  opacity: 0.7;
+  left: 66%; }
+
+.polygone3 {
+  position: absolute;
+  top: 14.5%;
   z-index: 1;
   opacity: 0.7;
   left: 66%; }
