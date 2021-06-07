@@ -19,7 +19,6 @@ header {
 			margin-right: 16px;
 
 			a {
-				position: absolute;
 				text-decoration: none;
 				color: white;
 				font-family: "Apex Regular";
@@ -51,4 +50,172 @@ header {
 	background-image: url("../assets/images/Ai_chaise.jpg");
 	filter: brightness(70%);
 	-webkit-filter: brightness(70%);
+}
+
+.ChapitreUnHeader:hover {
+
+	#Ligne_2 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_3 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_2-2 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_3-2 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_2-3 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_3-3 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_2-4 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_3-4 {
+		stroke: #fff;
+		transition: 1;
+		-webkit-transition: 1;
+		-moz-transition: 1;
+		-ms-transition: 1;
+		-o-transition: 1;
+	}
+
+	#ChapitreUn {
+		fill: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+}
+
+.ChapitreDeuxHeader:hover {
+
+	#Ligne_2 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_3 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_2-2 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_3-2 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_2-3 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_3-3 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_2-4 {
+		stroke: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
+
+	#Ligne_3-4 {
+		stroke: #fff;
+		transition: 1;
+		-webkit-transition: 1;
+		-moz-transition: 1;
+		-ms-transition: 1;
+		-o-transition: 1;
+	}
+
+	#ChapitreDeux {
+		fill: #fff;
+		transition: 1s;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-ms-transition: 1s;
+		-o-transition: 1s;
+	}
 }

@@ -15,7 +15,6 @@ header {
       align-items: center;
       margin-right: 16px; }
       header ul li a {
-        position: absolute;
         text-decoration: none;
         color: white;
         font-family: "Apex Regular";
@@ -41,6 +40,134 @@ header {
   background-image: url("../assets/images/Ai_chaise.jpg");
   filter: brightness(70%);
   -webkit-filter: brightness(70%); }
+
+.ChapitreUnHeader:hover #Ligne_2 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreUnHeader:hover #Ligne_3 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreUnHeader:hover #Ligne_2-2 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreUnHeader:hover #Ligne_3-2 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreUnHeader:hover #Ligne_2-3 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreUnHeader:hover #Ligne_3-3 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreUnHeader:hover #Ligne_2-4 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreUnHeader:hover #Ligne_3-4 {
+  stroke: #fff;
+  transition: 1;
+  -webkit-transition: 1;
+  -moz-transition: 1;
+  -ms-transition: 1;
+  -o-transition: 1; }
+.ChapitreUnHeader:hover #ChapitreUn {
+  fill: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+
+.ChapitreDeuxHeader:hover #Ligne_2 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreDeuxHeader:hover #Ligne_3 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreDeuxHeader:hover #Ligne_2-2 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreDeuxHeader:hover #Ligne_3-2 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreDeuxHeader:hover #Ligne_2-3 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreDeuxHeader:hover #Ligne_3-3 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreDeuxHeader:hover #Ligne_2-4 {
+  stroke: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.ChapitreDeuxHeader:hover #Ligne_3-4 {
+  stroke: #fff;
+  transition: 1;
+  -webkit-transition: 1;
+  -moz-transition: 1;
+  -ms-transition: 1;
+  -o-transition: 1; }
+.ChapitreDeuxHeader:hover #ChapitreDeux {
+  fill: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
 
 .ligne3 {
   margin-top: 0.8%;
@@ -138,7 +265,7 @@ ul li a:hover .boutonchapitre2 #Groupe_4 {
   box-sizing: border-box; }
 
 body {
-  background: #1F1F1F; }
+  background: #0E0E0F; }
 
 .chapitre {
   display: flex; }
@@ -310,11 +437,169 @@ footer li {
   margin-right: 16px; }
 
 footer a {
-  position: absolute;
   text-decoration: none;
   color: white;
   font-family: "Apex Regular";
   font-size: 30px; }
+
+.Accueil:hover #Accueil2 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.Accueil:hover #Groupe_2 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.Accueil:hover #Groupe_5 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.Accueil:hover #Groupe_3 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+.Accueil:hover #Groupe_4 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s; }
+
+.ChapitreUn:hover #ChapitreUn {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreUn:hover #Groupe_2 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreUn:hover #Groupe_5 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreUn:hover #Groupe_3 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreUn:hover #Groupe_4 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+
+.ChapitreDeux:hover #ChapitreDeux {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreDeux:hover #Groupe_2 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreDeux:hover #Groupe_5 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreDeux:hover #Groupe_3 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreDeux:hover #Groupe_4 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+
+.ChapitreTrois:hover #ChapitreTrois {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreTrois:hover #Groupe_2 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreTrois:hover #Groupe_5 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreTrois:hover #Groupe_3 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
+.ChapitreTrois:hover #Groupe_4 {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  stroke: #fff; }
 
 .premierChapitre {
   position: relative; }
